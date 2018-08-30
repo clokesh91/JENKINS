@@ -1,0 +1,34 @@
+Acceptance Criteria:
+
+Given a game
+When the application begins
+The random color should be generated within the 10 colors
+
+Given a game
+When the application begins
+Then the attempts should be equal to zero
+
+Given a game
+When the application begins
+Then the game has given 25 choices to user to guess the secret color code
+
+Given a game
+When the given input has a positional match with the color of a secret color code
+Then game will give the output as Black color
+
+Given a game
+When the given input has a match of color with the color of a secret color code
+Then game will give the output as White color
+
+Given a game
+When the given input doesn't match with the color of a secret color code
+Then game will give the output as Red color
+
+Given a game
+When the given input matches with the color of a secret color code
+Then game will notify "you won"
+
+Given a game
+When the given input doesn't match with the secret color code within 25 attempts
+Then game will notify "you lost"
+
