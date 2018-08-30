@@ -1,0 +1,39 @@
+User Stories:
+
+As a computer
+I want to choose 5 random colors from 10 colors
+So that I can create the secret color code
+
+As a computer
+I want to give 25 choices
+SO that user can find the secret color code
+
+As a user
+I want to select the 5 colors from the given 10 colors
+So that I can guess the secret color code
+
+As a computer
+I want to analyze the user input and show the feedback as Red color
+So that user input has no match with the secret color code
+
+As a computer
+I want to analyze the user input and show the feedback as White color
+so that user input has match of a color with the secret color code
+
+As a computer
+I want to analyze the user input and show the feedback as Black color
+so that user input has positional match with the secret color code
+
+As a user
+I want to see the feedback
+So that I can analyze my next input to guess the secret color code
+
+As a computer
+I want to stop the game when the user has a correct match with the secret code
+So that I can notify the user has "won the game"
+
+As a computer
+I want to stop the game when the user has completed all the 25 guess
+So that I can notify the user has "lost the game"
+
+
